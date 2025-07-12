@@ -1,12 +1,19 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
+*.ipynb_checkpoints
 
-# Virtual environment
-.venv/
+# IDEs
+.vscode/
+.idea/
 
-# Jupyter checkpoints
-.ipynb_checkpoints/
+# Virtual Environments
+env/
+venv/
 
-# Data folders
-data/raw/
+# Model Data & Outputs
+dataset/
+logs/
+wandb/
+lora_output/
+predictions/
